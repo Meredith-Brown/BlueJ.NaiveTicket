@@ -19,6 +19,8 @@ class TicketMachine
     private Integer total;
     // The number of tickets printed.
     private Integer ticketNumber;
+    // The status of the ticket.
+    private Integer status;
 
     /**
      * Create a machine that issues tickets of the given price.
